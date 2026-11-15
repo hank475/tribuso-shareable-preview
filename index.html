@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Tribuso | More community, less complexity.</title>
 <meta name="description" content="Tribuso makes it easier to bring your members together. Manage your community, plan events, and keep everyone connected in one welcoming place.">
-<meta name="theme-color" content="#ffffff">
+<meta name="theme-color" content="#fffefa">
 <style>
 :root{--ink:#0b3039;--body:#425e67;--teal:#0a9f9b;--teal-dark:#008882;--ivory:#fffefa;--line:#e8ede9;--mint:#e0f4ef;--gold:#ffca55;--coral:#f36d65;--max:1290px}
 *{box-sizing:border-box}
@@ -18,7 +18,7 @@ button:focus-visible,a:focus-visible,input:focus-visible{outline:3px solid #ffca
 .visually-hidden{position:absolute;width:1px;height:1px;margin:-1px;padding:0;border:0;clip:rect(0,0,0,0);overflow:hidden;white-space:nowrap}
 .wrap{width:min(calc(100% - 72px),var(--max));margin-inline:auto}
 /* Only one header. The desktop image begins BELOW the approved screenshot's removed navbar. */
-.site-header{height:76px;position:sticky;top:0;z-index:100;background:#fff;box-shadow:0 1px 0 rgba(15,56,57,.06)}
+.site-header{height:76px;position:sticky;top:0;z-index:100;background:var(--ivory);box-shadow:0 1px 0 rgba(15,56,57,.06)}
 .header-inner{height:100%;display:flex;align-items:center;justify-content:space-between;gap:30px}
 .brand{display:inline-flex;align-items:center;gap:12px;flex-shrink:0;font-weight:800;font-size:31px;letter-spacing:-.06em;line-height:1}
 .brand img{width:215px;height:auto;max-height:62px;object-fit:contain;object-position:left center;display:block}
@@ -79,7 +79,7 @@ dialog h2{font-size:29px;margin:12px 0}dialog p{font-size:15px;line-height:1.65;
 @media(max-width:920px){
  .site-header{height:68px}.brand{font-size:26px}.brand img{width:190px;max-height:58px}
  .primary-nav,.secondary-nav{display:none}.menu-button{display:grid;place-items:center;margin-left:auto}
- .mobile-nav[data-open="true"]{display:grid;position:absolute;left:0;right:0;top:68px;background:#fff;box-shadow:0 16px 25px rgba(0,0,0,.08);padding:20px;gap:18px;font-weight:650}
+ .mobile-nav[data-open="true"]{display:grid;position:absolute;left:0;right:0;top:68px;background:var(--ivory);box-shadow:0 16px 25px rgba(0,0,0,.08);padding:20px;gap:18px;font-weight:650}
  .mobile-nav a:not(.pill){display:block}
  .desktop-image,.hero-hotspot{display:none}
  .mobile-hero{display:block}
@@ -91,7 +91,7 @@ dialog h2{font-size:29px;margin:12px 0}dialog p{font-size:15px;line-height:1.65;
  .mobile-hero-content .actions{display:flex;justify-content:center;gap:12px;flex-wrap:wrap}
  .outline-btn{border:1px solid #82aaa8;border-radius:50px;padding:12px 21px;min-height:44px;background:transparent;color:var(--ink);font-size:14px;font-weight:700;cursor:pointer}
  .mobile-feature-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;padding:20px 20px 25px;background:var(--ivory);text-align:center}
- .mobile-feature{text-align:center;padding:12px 5px;border-radius:12px;background:#fffdf9}
+ .mobile-feature{text-align:center;padding:12px 5px;border-radius:12px;background:#fff;box-shadow:0 1px 8px rgba(15,56,57,.035)}
  .mobile-feature .bubble{display:grid;place-items:center;margin:0 auto 10px;width:51px;height:51px;border-radius:50%;font-size:23px;background:#ffcc55}
  .mobile-feature:nth-child(2) .bubble{background:#69d6b8}.mobile-feature:nth-child(3) .bubble{background:#ff7d84}.mobile-feature:nth-child(4) .bubble{background:#68b9fa}
  .mobile-feature .bubble svg{width:25px;height:25px;fill:none;stroke:#fff;stroke-width:2.25;stroke-linecap:round;stroke-linejoin:round}
